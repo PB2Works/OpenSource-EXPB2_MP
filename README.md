@@ -1,3 +1,7 @@
+# !! THIS IS NOT FULL OPEN SOURCE OF PB2_MP REPOSITORY. !!
+There were codes that interfaced with PB2 server directly. <br>
+This repository only includes codes that does NOT have it.
+
 # PB2Works Expanded PB2 Multiplayer Server
 This is repository where MP server code is hosted on. The game server is responsible for basically everything that happens inside the MP, from login, match creation, match joining, to handling in-game packets.
 
