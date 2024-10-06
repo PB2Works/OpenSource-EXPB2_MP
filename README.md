@@ -51,8 +51,9 @@ Now every other key:
 
 `guestsEnabled` indicates whether to allow guests. Disabling it will give `[SERVER] This server has guests disabled.` to clients trying to login as guest.
 
-Once you have done that, now open command prompt in this directory and run this command:
+Once you have done that, now open command prompt in this directory and run those commands:
 
+`nimble install ws` <br>
 `nim c -d:ssl game_server`
 
 This shouldn't take too long, once it has finished, you now have `game_server.exe` in your directory, you can now run it. You can also redistribute it to other people and it'll run too if you wish, of course if you provide them with relevant DLLs.
